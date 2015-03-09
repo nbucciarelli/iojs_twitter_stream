@@ -1,0 +1,23 @@
+{
+  "name": "twitter_image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo OK",
+    "start": "node server.js",
+    "build": "browserify app/index.js -o public/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ecstatic": "^0.6.1",
+    "socket.io": "^1.3.5",
+    "socket.io-client": "^1.3.5",
+    "vbridge": "0.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3"
+  }
+}
